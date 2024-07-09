@@ -6,21 +6,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 600px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    overflow: hidden;
 }
 
 .header {
-    background-color: #ff6f61;
+    background-color: #7ebeb2;
     color: white;
     padding: 20px;
     border-top-left-radius: 10px;
@@ -35,20 +37,30 @@ body {
     padding: 20px;
 }
 
-.birthday-cake {
+.evite-image {
     width: 100%;
-    max-width: 300px;
+    height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.message {
-    font-size: 1.2em;
-    color: #333;
+.rsvp-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #7ebeb2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.rsvp-button:hover {
+    background-color: #7ebeb2;
 }
 
 .footer {
-    background-color: #ff6f61;
+    background-color: #7ebeb2;
     color: white;
     padding: 10px;
     border-bottom-left-radius: 10px;
